@@ -15,8 +15,8 @@ async function create(producerInputValues) {
 
   const newProducer = await runInsertQuery({
     name: producerInputValues.name,
-    category: producerInputValues.location,
-    price: producerInputValues.phone,
+    location: producerInputValues.location,
+    phone: producerInputValues.phone,
   });
   return newProducer;
 
