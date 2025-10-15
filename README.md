@@ -1,4 +1,5 @@
 # 🌱 API COLHeita
+![Green Illustrative Agriculture Presentation (1)](https://github.com/user-attachments/assets/5963df41-a791-43fe-bdda-b645b4123005)
 
 ## Sobre a API
 
@@ -60,11 +61,11 @@ curl -X POST http://localhost:3000/api/producers \
 ```
 
 ## Desenvolvedoras
-**Ana Catarina** – desenvolvimento principal da API
-**Bianca Felipe de Oliveira** – contribuições adicionais e complementação do projeto
+- **Ana Catarina** – Desenvolvimento principal da API
+- **Bianca Felipe de Oliveira** – Contribuições adicionais e complementação do projeto.
 
 ## Contexto Acadêmico
-Este projeto foi desenvolvido para o Projeto Integrador da disciplina Web Services, do professor Victor Indalécio de Souza.
+Este projeto foi desenvolvido para o Projeto Integrador da disciplina Web Services, do professor Victor de Moura Indalécio.
 A versão apresentada neste repositório inclui implementações complementares realizadas por Bianca Felipe de Oliveira, mantendo os créditos da desenvolvedora principal.
 
 ## Licença
