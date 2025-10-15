@@ -1,9 +1,9 @@
-# 🌱 API COLHeita
+# 🌱 API Colheita
 ![Green Illustrative Agriculture Presentation (1)](https://github.com/user-attachments/assets/5963df41-a791-43fe-bdda-b645b4123005)
 
 ## Sobre a API
 
-A **API COLHeita** é uma aplicação voltada para **conectar produtores locais a consumidores**, promovendo a **economia local** e facilitando o acesso a **alimentos frescos e saudáveis**.  
+A **API Colheita** é uma aplicação voltada para **conectar produtores locais a consumidores**, promovendo a **economia local** e facilitando o acesso a **alimentos frescos e saudáveis**.  
 O objetivo da API é permitir o **cadastro e gerenciamento de produtores e produtos**, fornecendo uma base para aplicações que valorizem o comércio local e a interação comunitária.
 
 ---
@@ -42,8 +42,8 @@ npm run dev
 http://localhost:3000
 ```
 6. Para visualizar os recursos da API:
-Para produtos: http://localhost:3000/api/products
-Para produtores: http://localhost:3000/api/producers
+- Para produtos: http://localhost:3000/api/products
+- Para produtores: http://localhost:3000/api/producers
 
 ### Testando com POST
 Para adicionar um novo produto via terminal:
@@ -61,12 +61,11 @@ curl -X POST http://localhost:3000/api/producers \
 ```
 
 ## Desenvolvedoras
-- **Ana Catarina** – Desenvolvimento principal da API
+- **Ana Catarina Mezzalira Romanosk Ribeiro** – Desenvolvimento principal da API
 - **Bianca Felipe de Oliveira** – Contribuições adicionais e complementação do projeto.
 
 ## Contexto Acadêmico
 Este projeto foi desenvolvido para o Projeto Integrador da disciplina Web Services, do professor Victor de Moura Indalécio.
-A versão apresentada neste repositório inclui implementações complementares realizadas por Bianca Felipe de Oliveira, mantendo os créditos da desenvolvedora principal.
 
 ## Licença
 Projeto desenvolvido para fins acadêmicos e de aprendizado.
