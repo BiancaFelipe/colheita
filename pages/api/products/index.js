@@ -17,6 +17,6 @@ async function getHandler(request, response) {
 async function postHandler(request, response) {
   const productInputValues = request.body;
 
-  const newProduct = await item.create(productInputValues);
+  const newProduct = await product.create(productInputValues);
   response.status(201).json(newProduct);
 }

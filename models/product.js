@@ -8,12 +8,12 @@ async function create(productInputValues) {
     productInputValues.price === undefined ||
     productInputValues.description === undefined ||
     productInputValues.quantity === undefined ||
-    productInputValues.producerId === undefined
+    productInputValues.producer_id === undefined
   ) {
     throw new ValidationError({
       message: "Some values are missing.",
       action:
-        "You must provide values for name, category, price, description, quantity and producerId.",
+        "You must provide values for name, category, price, description, quantity and producer_id.",
     });
   }
 
@@ -23,7 +23,7 @@ async function create(productInputValues) {
     price: productInputValues.price,
     description: productInputValues.description,
     quantity: productInputValues.quantity,
-    producerId: productInputValues.producerId,
+    producer_id: productInputValues.producer_id,
   });
   return newProduct;
 
@@ -43,7 +43,7 @@ async function create(productInputValues) {
         productInputValues.price,
         productInputValues.description,
         productInputValues.quantity,
-        productInputValues.producerId,
+        productInputValues.producer_id,
       ],
     });
 
@@ -116,13 +116,14 @@ async function update(id, productInputValues) {
           products
         SET
           name = $1,
-          category = $2
+          category = $2,
           price = $3,
           description = $4,
           quantity = $5,
+          producer_id = $6,
           updated_at = timezone('utc', now())
         WHERE
-          id = $6
+          id = $7
         RETURNING
           *
         ;`,
@@ -132,6 +133,7 @@ async function update(id, productInputValues) {
         productWithNewValues.price,
         productWithNewValues.description,
         productWithNewValues.quantity,
+        productWithNewValues.producer_id,
         productWithNewValues.id,
       ],
     });

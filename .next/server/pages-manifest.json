@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/producers": "pages/api/producers.js"
+  "/api/status": "pages/api/status.js",
+  "/api/products": "pages/api/products.js",
+  "/api/producers": "pages/api/producers.js",
+  "/api/producers/[id]": "pages/api/producers/[id].js"
 }
