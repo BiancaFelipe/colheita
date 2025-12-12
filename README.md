@@ -24,6 +24,10 @@ A API realiza operações **CRUD** (Create, Read, Update, Delete) para os seguin
 - **Update** – atualizar informações de produtores
 - **Delete** – remover produtores
 
+
+https://github.com/user-attachments/assets/c7b97b6f-d3d1-4832-ad61-038321df46ac
+
+
 ---
 
 ## Executando o Projeto com Codespaces
