@@ -1,5 +1,6 @@
 # 🌱 API Colheita
-![Green Illustrative Agriculture Presentation (1)](https://github.com/user-attachments/assets/5963df41-a791-43fe-bdda-b645b4123005)
+
+<img width="1920" height="1080" alt="Green Illustrative Agriculture Presentation" src="https://github.com/user-attachments/assets/ab1beb7b-2178-49e6-87b4-2518b9643540" />
 
 ## Sobre a API
 
@@ -24,9 +25,7 @@ A API realiza operações **CRUD** (Create, Read, Update, Delete) para os seguin
 - **Update** – atualizar informações de produtores
 - **Delete** – remover produtores
 
-
-https://github.com/user-attachments/assets/c7b97b6f-d3d1-4832-ad61-038321df46ac
-
+![gravacao-tel (2) (online-video-cutter com)](https://github.com/user-attachments/assets/7fc273d8-55b5-445f-8280-42ada5b436bc)
 
 ---
 
