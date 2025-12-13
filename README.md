@@ -25,7 +25,10 @@ A API realiza operações **CRUD** (Create, Read, Update, Delete) para os seguin
 - **Update** – atualizar informações de produtores
 - **Delete** – remover produtores
 
-![gravacao-tel (2) (online-video-cutter com)](https://github.com/user-attachments/assets/7fc273d8-55b5-445f-8280-42ada5b436bc)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7fc273d8-55b5-445f-8280-42ada5b436bc" alt="Gravação de tela">
+</p>
+
 
 ---
 
